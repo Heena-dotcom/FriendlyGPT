@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/loutLeftChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@android:color/white"
+        android:padding="8dp"
+        android:layout_marginEnd="80dp"
+        >
+        <TextView
+            android:id="@+id/tvLeftChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/loutRightChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:padding="8dp"
+        android:layout_marginStart="80dp"
+        >
+        <TextView
+            android:id="@+id/tvRightChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
